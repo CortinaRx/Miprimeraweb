@@ -1,0 +1,190 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.885);
+  width: 100vw;
+  height: 12vh;
+}
+
+img {
+    margin-top: 5px;
+  margin-right: 300px;
+  height: 10vh;
+  width: 10vw;
+  
+}
+
+.header__div {
+  width: 500px;
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: flex-end;
+}
+
+.header__div a {
+  margin: 10px;
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  color: chocolate;
+}
+
+
+.container0 {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url('https://tee-api.colombiasports.net/assets/content/images/11815_main.jpg');
+    width: 100%;
+    height: 70vw;
+    background-size: cover;
+    
+    
+    
+
+}
+
+.container0 h1{
+  
+    align-items: center;
+    color: blanchedalmond;
+}
+
+.container0 a {
+  color: blanchedalmond;
+  font-size: large;
+  text-decoration: none;
+  
+}
+
+.title-general {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  height: 20vh;
+  background-color:   rgba(0, 0, 0, 0.885);
+}
+
+.title-general1 {
+  color: blanchedalmond;
+}
+
+
+
+
+/**Container 1 */
+
+.container {
+  display: flex;
+  justify-content:space-evenly;
+  width: 100vw;
+  height: 40vh;
+  background-color: rgba(0, 0, 0, 0.885);
+}
+
+.container1-box1 {
+  width: 30vw;
+  height: 30vh;
+ 
+  display: flex;
+  flex-direction: column;
+}
+.tirador1 {
+    text-decoration: none;
+    color: cornsilk;
+    margin-left: 65px;
+}
+
+.container1-hero {
+  margin: 20px;
+  margin-left: 170px;
+  width: 13vw;
+  height: 15vh;
+}
+
+.container1-title {
+    margin-left: 10px;
+    text-decoration: none;
+    color: cornsilk;
+    text-align: center;
+}
+
+.container1-p {
+  color: cornsilk;
+    text-align: center;
+    margin-left: 80px;
+}
+
+/**Seccion 1, box 2**/
+
+
+.container1-box2 {
+    width: 30vw;
+    height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+
+.container1-hero2 {
+    margin: 20px;
+    margin-left: 175px;
+    width: 13vw;
+    height: 15vh;
+}
+
+.container1-title2 {
+  margin-left: 80px;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.container1-p2 {
+  margin-left: 90px;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+/**footer**/
+
+.container3 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 20vh;
+  background-color: rgb(52, 53, 53);
+
+  
+
+
+  
+}
+
+.container3 h3 {
+  color: aliceblue;
+  margin: 0px;
+}
+
+.container3 p {
+  color: aliceblue;
+}
+
+.container3 a {
+  color: aliceblue;
+  text-decoration: none;
+
+  
+}
+
+a:hover {
+  color: chocolate;
